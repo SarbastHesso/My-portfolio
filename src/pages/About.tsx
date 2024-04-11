@@ -1,9 +1,7 @@
 import "./About.css";
 
 const About = () => {
-  return (
-    <div>About</div>
-  )
+  return <div className="about slide-in-left">About</div>;
 }
 
 export default About;

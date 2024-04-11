@@ -1,3 +1,4 @@
+
 :root {
     --body-bg: #f2f2f2;
     --primary-color: #007bff;
@@ -32,3 +33,79 @@ body {
 
 
 
+/* Define slide-in from left animation */
+.slide-in-left {
+  animation: slideInFromLeft 0.5s ease-in-out forwards;
+}
+
+/* Define slide-in from right animation */
+.slide-in-right {
+  animation: slideInFromRight 0.5s ease-in-out forwards;
+}
+
+/* Define slide-in from bottom animation */
+.slide-in-bottom {
+  animation: slideInFromBottom .5s ease-in-out forwards;
+}
+
+/* Define slide-in from top animation */
+.slide-in-top {
+  animation: slideInFromTop .5s ease-in-out forwards;
+}
+
+.fade-in {
+    animation: fadeIn .5s ease-in-out forwards;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
