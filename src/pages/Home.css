@@ -11,6 +11,7 @@
     font-family: "Orbitron", sans-serif;
     font-weight: 800;
     color: var(--black);
+    padding: .5rem;
 }
 
 .home h4 {
@@ -27,27 +28,31 @@
 }
 
 .home .nav-links .nav-link {
+    width: 220px;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: .3rem;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Orbitron", sans-serif;
     font-weight: 800;
-    padding: .5rem 1.2rem;
-    background-color: #f2f2f2a0;
-    color: var(--primary-color);
+    padding: .5rem 1rem 1rem;
+    background-image: linear-gradient(var(--body-bg) 0%,var(--body-bg) 50%, var(--secondary-color) 100%);
     cursor: pointer;
     transition: .1s ease-out;
+    color: var(--primary-color);
+    opacity: .8;
 }
 
 .home .nav-links .nav-link:hover {
     transform: scale(1.2);  
+    color: var(--secondary-color);
 }
 
 .home .nav-links .nav-link span {
-    font-size: 1.7rem;
-    font-weight: bold;
+    font-size: 1.8rem;
+    font-weight: 800;
     transition: transform 0.2s ease;
 }
 
