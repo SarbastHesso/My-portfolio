@@ -6,58 +6,23 @@
     justify-content: center;
 }
 
-.home h1, .home h4 {
+.home .title {
+    margin-bottom: 3rem;
+}
+
+.home .title h1, .home .title h4 {
     font-size: 4rem;
     font-family: "Orbitron", sans-serif;
     font-weight: 800;
     color: var(--black);
     padding: .5rem;
+    text-align: center;
 }
 
-.home h4 {
+.home .title h4 {
     font-size: 2rem;
 }
 
-.home .nav-links {
-    margin-top: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2.5rem;
-}
 
-.home .nav-links .nav-link {
-    width: 220px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .3rem;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-family: "Orbitron", sans-serif;
-    font-weight: 800;
-    padding: .5rem 1rem 1rem;
-    background-image: linear-gradient(var(--body-bg) 0%,var(--body-bg) 50%, var(--secondary-color) 100%);
-    cursor: pointer;
-    transition: .1s ease-out;
-    color: var(--primary-color);
-    opacity: .8;
-}
-
-.home .nav-links .nav-link:hover {
-    transform: scale(1.2);  
-    color: var(--secondary-color);
-}
-
-.home .nav-links .nav-link span {
-    font-size: 1.8rem;
-    font-weight: 800;
-    transition: transform 0.2s ease;
-}
-
-.home .nav-links .nav-link:hover span {
-    transform: rotatex(360deg);
-}
 
 

@@ -1,9 +1,9 @@
 
 :root {
     --body-bg: #f2f2f2;
-    --primary-color: #007bff;
+    --primary-color: #00b6cc;
     --secondary-color: #333333;
-    --complementary-color: 	#6EBFDA;
+    --complementary-color: 	#003339;
     --white: #ffffff;
     --black: #000000;
 }
@@ -17,17 +17,17 @@
 }
 
 body {
-    background-color: var(--body-bg); 
+    background-color: var(--secondary-color);
 }
 
 .App {
-  background-color: var(--secondary-color);
+    background-image: linear-gradient(var(--secondary-color) 10%,var(--body-bg) 50%, var(--secondary-color) 90%);
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 
@@ -45,16 +45,16 @@ body {
 
 /* Define slide-in from bottom animation */
 .slide-in-bottom {
-  animation: slideInFromBottom .5s ease-in-out forwards;
+  animation: slideInFromBottom 0.5s ease-in-out forwards;
 }
 
 /* Define slide-in from top animation */
 .slide-in-top {
-  animation: slideInFromTop .5s ease-in-out forwards;
+  animation: slideInFromTop 0.5s ease-in-out forwards;
 }
 
 .fade-in {
-    animation: fadeIn .5s ease-in-out forwards;
+    animation: fadeIn 0.5s ease-in-out forwards;
 }
 
 @keyframes slideInFromLeft {
