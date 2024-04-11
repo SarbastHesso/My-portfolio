@@ -13,6 +13,10 @@ const Home = () => {
           <span className="material-symbols-outlined">arrow_back</span>
           ABOUT ME
         </Link>
+        <Link className="nav-link" to="/skills" id="skills">
+          SKILLS
+          <span className="material-symbols-outlined">arrow_upward</span>
+        </Link>
         <Link className="nav-link" to="/projects" id="projects">
           PROJECTS
           <span className="material-symbols-outlined">arrow_downward</span>
