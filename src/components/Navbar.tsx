@@ -5,21 +5,43 @@ const Navbar = () => {
   const location = useLocation();
   return (
     <nav className="navbar">
-      <Link className={`nav-link ${location.pathname === "/about" ? "active" : ""}`} to="/about" id="about">
-        <span className="material-symbols-outlined">arrow_back</span>
+      <Link
+        className={`nav-link ${location.pathname === "/about" ? "active" : ""}`}
+        to="/about"
+        id="about"
+      >
+        <i className="fa-solid fa-arrow-left"></i>
         ABOUT ME
       </Link>
-      <Link className={`nav-link ${location.pathname === "/skills" ? "active" : ""}`} to="/skills" id="skills">
+      <Link
+        className={`nav-link ${
+          location.pathname === "/skills" ? "active" : ""
+        }`}
+        to="/skills"
+        id="skills"
+      >
         SKILLS
-        <span className="material-symbols-outlined">arrow_upward</span>
+        <i className="fa-solid fa-arrow-up"></i>
       </Link>
-      <Link className={`nav-link ${location.pathname === "/projects" ? "active" : ""}`} to="/projects" id="projects">
+      <Link
+        className={`nav-link ${
+          location.pathname === "/projects" ? "active" : ""
+        }`}
+        to="/projects"
+        id="projects"
+      >
         PROJECTS
-        <span className="material-symbols-outlined">arrow_downward</span>
+        <i className="fa-solid fa-arrow-down"></i>
       </Link>
-      <Link className={`nav-link ${location.pathname === "/contact" ? "active" : ""}`} to="/contact" id="contact">
+      <Link
+        className={`nav-link ${
+          location.pathname === "/contact" ? "active" : ""
+        }`}
+        to="/contact"
+        id="contact"
+      >
         CONTACT ME
-        <span className="material-symbols-outlined">arrow_forward</span>
+        <i className="fa-solid fa-arrow-right"></i>
       </Link>
     </nav>
   );

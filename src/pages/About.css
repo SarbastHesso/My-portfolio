@@ -16,10 +16,8 @@
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
-  /* background-color: var(--beige); */
   color: var(--secondary-color);
   color: var(--body-bg);
-  /* border-radius: 1rem 1rem 0 0; */
 }
 
 .about .profile-text {
@@ -37,13 +35,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   animation: fadeInImg 5s ease forwards;
-  /* border-radius: 1rem; */
-}
-
-
-@keyframes fadeInImg {
-    0% {opacity: 0;}
-    100%{opacity: 1;}
 }
 
 .about .educations {
@@ -73,7 +64,6 @@
 
 .about .education {
   background-color: var(--primary-color-transparency);
-  /* border-radius: 0 0 1rem 1rem; */
   min-width: 375px;
 }
 
@@ -89,7 +79,6 @@
 .about .education .title {
   font-size: 1.3rem;
   color: var(--body-bg);
-  /* margin-bottom: .5rem; */
   padding: 1rem 1rem .5rem;
 }
 

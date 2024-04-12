@@ -1,3 +1,46 @@
 .contact {
     height: 100vh;
 }
+
+.contact-sections {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contact .img-wrapper {
+    width: 350px;
+    height: 290px;
+    background-image: url("../assets/images/contact.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeInImg 5s ease forwards;
+}
+
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact i {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.contact .text {
+    font-size: 1.4rem;
+    color: var(--body-bg);
+}

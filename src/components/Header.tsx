@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <div className={`header ${location.pathname === "/" ? "hide" : ""}`}>
       <Link to="/" className="back">
-        <span className="material-symbols-outlined">home_app_logo</span>
+        <i className="fa-solid fa-house"></i>
       </Link>
-      <Navbar/>
+      <Navbar />
     </div>
   );
 }
