@@ -16,16 +16,17 @@
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
-  background-color: var(--beige);
+  /* background-color: var(--beige); */
   color: var(--secondary-color);
-  border-radius: 1rem 1rem 0 0;
+  color: var(--body-bg);
+  /* border-radius: 1rem 1rem 0 0; */
 }
 
 .about .profile-text {
   flex: 1;
   min-width: 400px;
-  padding: 1rem 2rem;
   font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 
@@ -36,6 +37,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   animation: fadeInImg 5s ease forwards;
+  border-radius: 1rem;
 }
 
 
@@ -49,7 +51,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: .7rem;
 } 
 
 .about .educations h3 {
@@ -57,7 +59,7 @@
   text-align: center;
   font-size: 1.8rem;
   color: var(--body-bg);
-  padding-bottom: .5rem;
+  padding-bottom: 1rem;
   border-bottom: 3px solid var(--body-bg);
 }
 
