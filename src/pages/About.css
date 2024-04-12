@@ -1,3 +1,115 @@
-.about {
-    height: 100vh;
+/* .about {
+  
+} */
+
+.about .about-sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
+
+.about .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: var(--beige);
+  color: var(--secondary-color);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.about .profile-text {
+  flex: 1;
+  min-width: 400px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+
+.about .img-wrapper {
+  width: 160px;
+  height: 160px;
+  background-image: url("../assets/images/profile-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadeInImg 5s ease forwards;
+}
+
+
+@keyframes fadeInImg {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.about .educations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+} 
+
+.about .educations h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--body-bg);
+  padding-bottom: .5rem;
+  border-bottom: 3px solid var(--body-bg);
+}
+
+.about .educations-sections {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about .education {
+  background-color: var(--primary-color-transparency);
+  border-radius: 0 0 1rem 1rem;
+  min-width: 375px;
+}
+
+.about .education:first-child {
+  flex: 1;
+  align-self: stretch;
+}
+
+.about .education:last-child {
+  flex: 2;
+}
+
+.about .education .title {
+  font-size: 1.3rem;
+  color: var(--body-bg);
+  /* margin-bottom: .5rem; */
+  padding: 1rem 1rem .5rem;
+}
+
+.about .education .sub-title {
+  font-size: 1rem;
+  color: var(--body-bg);
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.about .education .info {
+  font-size: 1.1rem;
+  background-color: var(--secondary-color);
+  color: var(--body-bg);
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
+
+.about .education .text {
+  font-size: 1rem;
+  color: var(--body-bg);
+  line-height: 1.5;
+  padding: 0 1rem .5rem;
+}
+

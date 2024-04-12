@@ -1,9 +1,11 @@
 
 :root {
     --body-bg: #f2f2f2;
-    --primary-color: #00b6cc;
+    --primary-color: #028492;
+    --primary-color-transparency : #02849271;
     --secondary-color: #333333;
-    --complementary-color: 	#003339;
+    --complementary-color: 	#037885;
+    --beige: #f7efe5;
     --white: #ffffff;
     --black: #000000;
 }
@@ -18,11 +20,13 @@
 
 body {
     background-color: var(--secondary-color);
+    height: 100vh;
+    overflow-y: auto; /
 }
 
-.App {
+/* .App {
     background-image: linear-gradient(var(--secondary-color) 10%,var(--body-bg) 50%, var(--secondary-color) 90%);
-}
+} */
 
 .container {
     max-width: 1200px;
