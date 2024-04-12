@@ -1,18 +1,9 @@
-import { useState } from "react";
 import "./About.css";
 
 const About = () => {
-  const [animationClass, setAnimationClass] = useState("slide-in-left");
-
-  const handleAnimationEnd = () => {
-    setAnimationClass(""); 
-  };
-
+ 
   return (
-    <div
-      className={`about ${animationClass}`}
-      onAnimationEnd={handleAnimationEnd}
-    >
+    <div className="about slide-in-left">
       <div className="container">
         <div className="about-sections">
           <section className="profile">
@@ -46,12 +37,8 @@ const About = () => {
                 </p>
               </section>
               <section className="education">
-                <h4 className="title">
-                  Web & Front-end Developer
-                </h4>
-                <h4 className="sub-title">
-                  Higher vocational education
-                </h4>
+                <h4 className="title">Web & Front-end Developer</h4>
+                <h4 className="sub-title">Higher vocational education</h4>
                 <h5 className="info">
                   EC-Utbildning, Västerås 2020/08 – 2022/06
                 </h5>

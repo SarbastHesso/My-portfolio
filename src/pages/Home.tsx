@@ -1,15 +1,11 @@
 import Canvas from "../components/Canvas";
 import Navbar from "../components/Navbar";
 import "./Home.css";
-import { useState } from "react";
 
 const Home = () => {
-  const [animationClass, setAnimationClass] = useState("fade-in");
-  const handleAnimationEnd = () => {
-    setAnimationClass("");
-  };
+
   return (
-    <div className={`home ${animationClass}`} onAnimationEnd={handleAnimationEnd}>
+    <div className="home fade-in">
       <Canvas />
       <div className="container">
         <div className="title">

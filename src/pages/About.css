@@ -37,7 +37,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   animation: fadeInImg 5s ease forwards;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 
 
@@ -73,7 +73,7 @@
 
 .about .education {
   background-color: var(--primary-color-transparency);
-  border-radius: 0 0 1rem 1rem;
+  /* border-radius: 0 0 1rem 1rem; */
   min-width: 375px;
 }
 
