@@ -34,7 +34,6 @@
   background-image: url("../assets/images/profile-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  animation: fadeInImg 5s ease forwards;
 }
 
 .about .educations {

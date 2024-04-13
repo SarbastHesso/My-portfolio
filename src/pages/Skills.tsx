@@ -42,7 +42,7 @@ const Skills = () => {
             return (
               <div
                 key={index}
-                className={`skill ${isVisible ? "flashing-border" : ""}`}
+                className={`skill ${isVisible ? "flashing" : ""}`}
                 style={{ animationDelay: `${index * 0.8}s` }}
               >
                 <p>{skill}</p>

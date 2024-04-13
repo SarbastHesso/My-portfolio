@@ -17,7 +17,7 @@ const About = () => {
               growth and eagerly embrace opportunities to expand my knowledge
               and skills.
             </p>
-            <div className="img-wrapper"></div>
+            <div className="img-wrapper fadeInImg"></div>
           </section>
 
           <section className="educations">

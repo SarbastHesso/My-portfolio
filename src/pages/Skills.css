@@ -18,23 +18,7 @@
     color: var(--body-bg);
 }
 
-.skill:hover {
-    border-color: var(--primary-color);
-}
-
 .skill p {
     font-size: 1.3rem;
 }
 
-.flashing-border {
-  animation: flashingBorder 0.8s ease forwards;
-}
-
-@keyframes flashingBorder {
-  from {
-    border-color: var(--primary-color);
-  }
-  to {
-    border-color: var(--primary-color-transparency);
-  }
-}

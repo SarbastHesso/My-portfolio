@@ -3,12 +3,14 @@
 }
 
 .contact-sections {
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--body-bg);
 }
 
 .contact .img-wrapper {
@@ -17,7 +19,6 @@
     background-image: url("../assets/images/contact.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    animation: fadeInImg 5s ease forwards;
 }
 
 .contact-list{
@@ -37,7 +38,7 @@
 
 .contact i {
     font-size: 1.8rem;
-    color: var(--primary-color);
+    color: var(--primary-color-transparency);
 }
 
 .contact .text {

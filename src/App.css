@@ -61,6 +61,18 @@ body {
     animation: fadeIn 0.5s ease-in-out forwards;
 }
 
+.fadeInImg {
+  animation: fadeInImg 5s ease forwards;
+}
+
+.flashing {
+  animation: flashing 0.8s ease forwards;
+}
+
+.flashing-icon {
+  animation: flashingIcon 0.8s ease forwards;
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -117,4 +129,23 @@ body {
 @keyframes fadeInImg {
     0% {opacity: 0;}
     100%{opacity: 1;}
+}
+
+@keyframes flashing {
+  from {
+    background-color: var(--primary-color-transparency);
+    border-color: var(--primary-color);
+  }
+  to {
+    border-color: var(--primary-color-transparency);
+  }
+}
+
+@keyframes flashingIcon {
+  from {
+    color: var(--primary-color);
+  }
+  to {
+    color: var(--primary-color-transparency);
+  }
 }
