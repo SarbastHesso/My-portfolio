@@ -37,19 +37,19 @@ const Skills = () => {
   return (
     <div className="skills slide-in-top">
       <div className="container">
-        <div className="skill-list">
+        <ul className="skill-list">
           {skills.map((skill, index) => {
             return (
-              <div
+              <li
                 key={index}
                 className={`skill ${isVisible ? "flashing" : ""}`}
                 style={{ animationDelay: `${index * 0.8}s` }}
               >
                 <p>{skill}</p>
-              </div>
+              </li>
             );
           })}
-        </div>
+        </ul>
       </div>
     </div>
   );
