@@ -9,19 +9,26 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .project {
     width: 100%;
+    text-align: start;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
     padding: 1rem 0;
     border-bottom: 2px solid var(--primary-color-transparency);
     cursor: pointer;
+}
+
+.project .title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .project i {
@@ -41,4 +48,15 @@
 .project:hover {
     border-bottom-color: var(--primary-color);
     transition: .1s ease-in;
+}
+
+.project .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project .icons i {
+    font-size: 1.7rem;
 }

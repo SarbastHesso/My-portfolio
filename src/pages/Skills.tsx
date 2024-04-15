@@ -43,7 +43,7 @@ const Skills = () => {
               <li
                 key={index}
                 className={`skill ${isVisible ? "flashing" : ""}`}
-                style={{ animationDelay: `${index * 0.8}s` }}
+                style={{ animationDelay: `${index * 1.2}s` }}
               >
                 <p>{skill}</p>
               </li>

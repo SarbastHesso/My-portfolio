@@ -69,7 +69,7 @@ body {
 }
 
 .flashing {
-  animation: flashing 0.5s ease forwards;
+  animation: flashing 0.9s ease forwards;
 }
 
 .flashing-icon {
